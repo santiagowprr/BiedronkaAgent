@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Shopping_Transaction__c</fullName>
+    <label>Shopping Transaction</label>
+    <type>MasterDetail</type>
+    <referenceTo>Shopping_Transaction__c</referenceTo>
+    <relationshipLabel>Price Observations</relationshipLabel>
+    <relationshipName>Price_Observations</relationshipName>
+</CustomField>

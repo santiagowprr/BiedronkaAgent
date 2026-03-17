@@ -1,0 +1,22 @@
+<template>
+    <lightning-card title="Related Domain Accounts" icon-name="standard:account">
+        <div class="slds-p-around_medium">
+            <template if:true={isLoading}>
+                <lightning-spinner alternative-text="Loading"></lightning-spinner>
+            </template>
+
+            <template if:true={hasData}>
+                <lightning-datatable
+                    key-field="Id"
+                    data={accounts}
+                    columns={columns}
+                    hide-checkbox-column="true">
+                </lightning-datatable>
+            </template>
+
+            <template if:false={hasData}>
+                <p>No related accounts found.</p>
+            </template>
+        </div>
+    </lightning-card>
+</template>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtlClntAppOauthSettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Biedronka iPhone OAuth</label>
+    <externalClientApplication>Biedronka_iPhone</externalClientApplication>
+    <callbackUrl>https://login.salesforce.com/services/oauth2/success</callbackUrl>
+    <commaSeparatedOauthScopes>Api,Web,RefreshToken,OfflineAccess</commaSeparatedOauthScopes>
+    <isClientCredentialEnabled>false</isClientCredentialEnabled>
+    <isConsumerSecretOptional>false</isConsumerSecretOptional>
+    <isIntrospectAllTokens>false</isIntrospectAllTokens>
+    <isPkceRequired>false</isPkceRequired>
+</ExtlClntAppOauthSettings>
